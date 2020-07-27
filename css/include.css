@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+/*헤더*/
+
+#header{
+    text-align: center;
+}
+
+.h_top{
+    background:#282828;
+    height:40px;
+    line-height:40px;
+    font-size:12px;
+}
+.h_top a{
+    color:#fff;
+}
+
+.eng_btn{
+    float:left;
+    width:100px;
+    border:2px solid #000;
+    border-bottom:0;
+    border-top:0;
+}
+.eng_btn a{
+    display: block;
+}
+
+.t_right{
+    float:right;
+    text-align:center;
+}
+.t_right li{
+    float:left;
+    width:130px;
+    border-left:2px solid #000;
+    
+}
+
+
+.t_right li a{
+    display: block;
+}
+.t_right li a img{
+    margin-left:10px;
+}
+
+.h_bottom{
+    height:150px;
+    line-height:150px;
+}
+.h_bottom a{
+    color:#333;
+}
+
+.logo{
+    float:left;
+}
+
+.gnb{
+    float:right; 
+}
+.gnb li{
+    float:left;
+    width:100px;
+    font-weight: bolder
+}
+.gnb li a{
+}
+
+/*footer*/
+
+#footer{
+    background:#1E1E1E;
+    position:relative;
+    padding-bottom:80px;
+}
+
+.top_btn{
+    background:url(../images/common/btn_go_top.png)no-repeat;
+    position:absolute;
+    left:50%;
+    margin-left: -51px;
+    top:-39px;
+    width:102px;
+    height:39px;
+    line-height:45px;
+    text-align:center;
+    font-size:13px;
+}
+.top_btn a{
+    color:#646464;
+    display: block;
+}
+
+.f_top{
+    background:#282828;
+    text-align: center;
+}
+.f_top a{
+    color:#8C8C8C;
+}
+.f_t_menu{
+    display: inline-block;
+}
+.f_t_menu li{
+    text-align:left;
+    float: left;
+    padding:50px;
+    padding-left: 0;
+    font-size:12px;
+    line-height:22px;
+}
+
+.menu_list{}
+.menu_list h4{
+    background:url(../images/common/bar_snb.gif) no-repeat left bottom;
+    color:#5A5F5B;
+    padding-bottom:10px;
+    margin-bottom:10px;
+    font-size: 14px;
+}
+.menu_list p{}
+.menu_list p a{}
+
+.f_bottom{
+    color:#4F5050;
+}
+.f_bottom .inner{
+    position:relative;
+}
+.f_bottom a{
+    color:#4F5050;
+}
+.f_bottom>div>p{
+    padding-top:20px;
+    font-size:14px;
+    
+}
+.f_bottom h1{
+    padding:30px 0;
+}
+.f_bottom h1 img{
+    width:180px;
+}
+
+.f_bottom_list{
+    font-size:0;
+}
+.f_bottom_list li{}
+.f_bottom_list li p{}
+.f_bottom_list span{
+    background:url(../images/common/bar_fUtil.gif) no-repeat center right;
+    padding:10px;
+    font-size:14px;
+}
+.f_bottom_list li span:last-child{
+    background:none;
+}
+.f_bottom_list li span:first-child{
+    padding:0;
+}
+
+.sns_btn{
+    position:absolute;
+    right:0;
+    top:40px;
+}
+.sns_btn span{}
+.sns_btn span a{}
+.sns_btn span a img{
+    width:34px;
+    margin:0 2px;
+}
